@@ -1,0 +1,22 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="NeNavredi.Pages.AdminMenu" Loaded="Control_OnLoaded">
+    <Grid RowDefinitions="Auto, *">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Label Content="Администратор"/>
+            <Button Name="ExitBtn" Content="Выход" Click="ExitBtn_OnClick"/>
+            <Image Source="../Images/Администратор.png" Width="40"/>
+            <Label Name="NameLb"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label Content="Меню админа" Width="nan"/>
+            <Button Name="TakeBtn" Content="Контроль пользователей"/>
+            <Button Name="ReportBtn" Content="Отчёт"/>
+            <Button Name="MaterialsBtn" Content="Данные о расх. мат" Width="nan"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

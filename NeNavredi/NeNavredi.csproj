@@ -24,4 +24,22 @@
         </PackageReference>
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.11" />
     </ItemGroup>
+
+
+    <ItemGroup>
+      <None Remove="Images\1.jpg" />
+      <AvaloniaResource Include="Images\1.jpg" />
+      <None Remove="Images\2.jpg" />
+      <AvaloniaResource Include="Images\2.jpg" />
+      <None Remove="Images\3.jpg" />
+      <AvaloniaResource Include="Images\3.jpg" />
+      <None Remove="Images\laborant_1.jpeg" />
+      <AvaloniaResource Include="Images\laborant_1.jpeg" />
+      <None Remove="Images\laborant_2.png" />
+      <AvaloniaResource Include="Images\laborant_2.png" />
+      <None Remove="Images\Администратор.png" />
+      <AvaloniaResource Include="Images\Администратор.png" />
+      <None Remove="Images\Бухгалтер.jpeg" />
+      <AvaloniaResource Include="Images\Бухгалтер.jpeg" />
+    </ItemGroup>
 </Project>

@@ -20,3 +20,18 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/home/user/RiderProjects/NeNavredi/NeNavredi/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/user/RiderProjects/NeNavredi/NeNavredi/Pages/AdminMenu.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/user/RiderProjects/NeNavredi/NeNavredi/Pages/Auth.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/user/RiderProjects/NeNavredi/NeNavredi/Pages/BookkeperMenu.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/user/RiderProjects/NeNavredi/NeNavredi/Pages/EmployeeMenu.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/user/RiderProjects/NeNavredi/NeNavredi/Pages/ExpEmployeeMenu.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

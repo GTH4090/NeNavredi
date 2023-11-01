@@ -11,7 +11,11 @@ public partial class OrderService
 
     public int ServiceId { get; set; }
 
+    public int StatusId { get; set; }
+
     public virtual Order Order { get; set; } = null!;
 
     public virtual Service Service { get; set; } = null!;
+
+    public virtual Status Status { get; set; } = null!;
 }

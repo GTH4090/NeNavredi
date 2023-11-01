@@ -3,7 +3,13 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="NeNavredi/App.axaml" value="NeNavredi/NeNavredi.csproj" />
         <entry key="NeNavredi/MainWindow.axaml" value="NeNavredi/NeNavredi.csproj" />
+        <entry key="NeNavredi/Pages/AdminMenu.axaml" value="NeNavredi/NeNavredi.csproj" />
+        <entry key="NeNavredi/Pages/Auth.axaml" value="NeNavredi/NeNavredi.csproj" />
+        <entry key="NeNavredi/Pages/BookkeperMenu.axaml" value="NeNavredi/NeNavredi.csproj" />
+        <entry key="NeNavredi/Pages/EmployeeMenu.axaml" value="NeNavredi/NeNavredi.csproj" />
+        <entry key="NeNavredi/Pages/ExpEmployeeMenu.axaml" value="NeNavredi/NeNavredi.csproj" />
       </map>
     </option>
   </component>

@@ -17,8 +17,6 @@ public partial class Service
 
     public decimal AvargeDeviation { get; set; }
 
-    public virtual ICollection<BookkeeperService> BookkeeperServices { get; set; } = new List<BookkeeperService>();
-
     public virtual ICollection<CompleeteService> CompleeteServices { get; set; } = new List<CompleeteService>();
 
     public virtual ICollection<EmployeeService> EmployeeServices { get; set; } = new List<EmployeeService>();

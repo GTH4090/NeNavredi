@@ -11,13 +11,13 @@ public partial class CompleeteService
 
     public DateTime Date { get; set; }
 
-    public int EmployeeId { get; set; }
+    public int UserId { get; set; }
 
     public int RecyclerId { get; set; }
-
-    public virtual Employee Employee { get; set; } = null!;
 
     public virtual Recycler Recycler { get; set; } = null!;
 
     public virtual Service Service { get; set; } = null!;
+
+    public virtual User User { get; set; } = null!;
 }

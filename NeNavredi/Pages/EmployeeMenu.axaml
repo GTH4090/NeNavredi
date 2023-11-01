@@ -1,0 +1,22 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="NeNavredi.Pages.EmployeeMenu" Loaded="Control_OnLoaded">
+    <Grid RowDefinitions="Auto, *">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Label Content="Лаборант"/>
+            <Button Name="ExitBtn" Content="Выход" Click="ExitBtn_OnClick"/>
+            <Image Source="../Images/laborant_1.jpeg" Width="40"/>
+            <Label Name="NameLb"/>
+            <Label Name="TimerLb" Content="0:2"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Label Content="Меню лаборанта" Width="nan"/>
+            <Button Name="TakeBtn" Content="Принять отходы"/>
+            <Button Name="ReportBtn" Content="Отчёт"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

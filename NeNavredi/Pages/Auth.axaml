@@ -1,0 +1,29 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="NeNavredi.Pages.Auth">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" IsVisible="False" Name="CapchaSp">
+                <Image Name="OneImg" Source="../Images/1.jpg" Width="200" IsVisible="False"/>
+                <Image Name="TwoImg" Source="../Images/2.jpg" Width="200" IsVisible="False"/>
+                <Image Name="ThreeImg" Source="../Images/3.jpg" Width="200" IsVisible="False"/>
+                <TextBox Name="CapchaTbx"/>
+                <Button Name="CapcahBtn" Content="Другая капча" Click="CapcahBtn_OnClick"/>
+                
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Login"/>
+                <TextBox Name="LoginTbx"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Password"/>
+                <TextBox Name="PasswordTbx" PasswordChar="*"/>
+                <Button Name="PassperdBtn" Content="o" Width="32" Click="PassperdBtn_OnClick"/>
+            </StackPanel>
+            <Button Name="LoginBtn" Content="Авторизоваться" Click="LoginBtn_OnClick"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

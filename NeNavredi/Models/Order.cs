@@ -18,4 +18,6 @@ public partial class Order
     public virtual Client Client { get; set; } = null!;
 
     public virtual ICollection<OrderService> OrderServices { get; set; } = new List<OrderService>();
+
+    public virtual Status Status { get; set; } = null!;
 }
